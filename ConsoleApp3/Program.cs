@@ -14,7 +14,7 @@ namespace ConsoleApp3
             int[] a = new int[100];
             int S = 0;
             int n;
-            Console.Write("nhap so luong phan tu: ");
+            Console.Write("nhap so luong phan tu cua day: ");
             n = Convert.ToInt32(Console.ReadLine());
             for (int i = 1; i <= n; i++)
             {
