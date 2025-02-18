@@ -16,12 +16,12 @@ namespace ConsoleApp3
             int n;
             Console.Write("nhap so luong phan tu: ");
             n = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < n; i++)
+            for (int i = 1; i <= n; i++)
             {
                 Console.Write("a[" + i + "]=");
                 a[i] = Convert.ToInt32(Console.ReadLine());
             }
-            for (int i = 0; i < n; i++)
+            for (int i = 1; i <= n; i++)
             {
                 S += a[i];
             }
@@ -30,7 +30,7 @@ namespace ConsoleApp3
             //Bai 2
             Console.WriteLine("Nhap so hang va cot ");
             int m = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < m; i++)
+            for (int i = 1; i <= m; i++)
             {
                 for (int j = 0; j < i; j++)
                 {
@@ -42,7 +42,7 @@ namespace ConsoleApp3
             //Bai 3
             Console.WriteLine("Nhap chieu cao cay thong ");
             int h = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < h; i++)
+            for (int i = 1; i <= h; i++)
             {
                 for (int j = 0; j < h - i; j++)
                 {
